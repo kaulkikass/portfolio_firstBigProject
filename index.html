@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaul's responsive portfolio website</title>
+    <!-- iconscout cdn -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- google fontid (poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- google fontid (patrick) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- minu kujundus -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <!-- <a href="index.html" class="nav__logo">
+                <h3>Logo</h3>
+            </a> -->
+
+            <ul class="nav__menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="images/cv.pdf" class="btn btn-primary" download>
+                    <i class="uil uil-download-alt"></i> Download CV
+                </a></li>
+            </ul>
+            
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- NAVBARI LÕPP -->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <div>
+                    <h1>KAUL<br>KRISTJAN<br>KIKAS</h1>
+                    <p>A full stack developer Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque laudantium error non fugiat earum deleniti, omnis in laborum aperiam sapiente 
+                        tempora? Itaque perspiciatis deleniti quisquam cumque adipisci ducimus vitae dicta?</p>
+                        <a href="#contact" class="btn btn-primary btn-lg">Get in touch</a>
+                </div>
+            </div>
+            <div class="header__right">
+                <ul class="header__socials">
+                    <li><a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a></li>
+                    <li><a href="https://github.com" target="_blank"><i class="uil uil-github"></i></a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- SERVICES SECTION!!!!!!!!!!! -->
+
+    <section id="services">
+        <div class="container services__container">
+            <div class="services__left">
+                <h1>10+</h1>
+                <h4>Years Working Experience</h4>
+                <small>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sit eius provident aut, consequuntur perspiciatis debitis aliquid ipsam modi est ipsa at magni unde!
+                </small>
+            </div>
+            <div class="services__right">
+                <h2>Full Stack Developer, UI/U, Digital Designs.</h2>
+                <div class="services__cards">
+                    <div class="services__card">
+                        <span class="services__card-icon"><i class="uil uil-layers-alt"></i></span>
+                        <h5>Product Design</h5>
+                        <a href="#">Discover More <i class="uil uil-arrow-right"></i></a>
+                    </div>
+                    <div class="services__card">
+                        <span class="services__card-icon"><i class="uil uil-browser"></i></span>
+                        <h5>Website Development</h5>
+                        <a href="#">Discover More <i class="uil uil-arrow-right"></i></a>
+                    </div>
+                    <div class="services__card">
+                        <span class="services__card-icon"><i class="uil uil-lightbulb"></i></span>
+                        <h5>Branding Design</h5>
+                        <a href="#">Discover More <i class="uil uil-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO!!!!!!!!!!!!!!!!!!!!!!! -->
+
+    <section id="portfolio">
+        <div class="container portfolio__container">
+            <div class="portfolio__head">
+                <h3>My projects</h3>
+                <div class="portfolio__head-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ut sed perspiciatis deleniti, quos deserunt fugiat qui mollitia sequi reprehenderit molestias sit eos quo. Vel et quod cupiditate ad aut.</p>
+                    <a href="">Explore More <i class="uil uil-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="portfolio__projects">
+                <article class="portfolio__project">
+                    <span class="portfolio__project-image"><img src="images/praamid.png"></span>
+                    <div class="portfolio__cta">
+                        <a href="https://github.com" class="btn" target="_blank">Github</a>
+                        <a href="" class="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+                <article class="portfolio__project">
+                    <span class="portfolio__project-image"><img src="images/etv.png"></span>
+                    <div class="portfolio__cta">
+                        <a href="https://github.com" class="btn" target="_blank">Github</a>
+                        <a href="" class="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+                <article class="portfolio__project">
+                    <span class="portfolio__project-image"><img src="images/rimi.png"></span>
+                    <div class="portfolio__cta">
+                        <a href="https://github.com" class="btn" target="_blank">Github</a>
+                        <a href="" class="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+                <article class="portfolio__project">
+                    <span class="portfolio__project-image"><img src="images/apollo.png"></span>
+                    <div class="portfolio__cta">
+                        <a href="https://github.com" class="btn" target="_blank">Github</a>
+                        <a href="" class="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION!!!!!!!!!!!!!!!!!! -->
+
+    <section id="contact">
+        <div class="container contact__container">
+            <div class="contact__left">
+                <h2>Let's Talk</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aperiam natus ipsum pariatur dolorum nihil culpa tempore ea consequuntur perspiciatis!</p>
+                <ul class="contact__socials">
+                    <li><a href="https://instagram.com" target="_blank"><i class="uil uil-instagram"></i></a></li>
+                    <li><a href="https://github.com" target="_blank"><i class="uil uil-github"></i></a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+            <form action="https://formspree.io/f/xgeddejk" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send <i class="uil uil-arrow-right"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
